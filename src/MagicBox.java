@@ -25,7 +25,7 @@ public class MagicBox<T> {
             }
         }
         if (lengt > 0) {
-            throw new RuntimeException("Осталось ячеек " + (items.length - lengt));
+            throw new RuntimeException("Осталось ячеек " + lengt);
         }
         Random random = new Random();
         int randomInt = random.nextInt(items.length);
